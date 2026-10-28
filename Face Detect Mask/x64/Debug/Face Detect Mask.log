@@ -1,0 +1,11 @@
+﻿  MyForm.cpp
+  FaceDetector.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+C:\Users\Almas\vcpkg\installed\x64-windows\include\opencv4\opencv2\core\cuda.inl.hpp(113,1): warning C4793: 'cv::cuda::GpuMat::GpuMat': function compiled as native:
+C:\Users\Almas\vcpkg\installed\x64-windows\include\opencv4\opencv2\core\cuda.inl.hpp(113,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Users\Almas\vcpkg\installed\x64-windows\include\opencv4\opencv2\core\cuda.inl.hpp(511,1): warning C4793: 'cv::cuda::HostMem::HostMem': function compiled as native:
+C:\Users\Almas\vcpkg\installed\x64-windows\include\opencv4\opencv2\core\cuda.inl.hpp(511,1): warning C4793: 	Found an intrinsic not supported in managed code
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1193,5): error : Element <SubSystem> has an invalid value of "/SUBSYSTEM:WINDOWS".
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1193,5): error MSB6011: Invalid parameters passed to the Microsoft.Build.CPPTasks.Link task.

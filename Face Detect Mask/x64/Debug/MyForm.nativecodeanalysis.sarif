@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35222.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/myform.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3e0f7b210a9dfc352e8653d2108959e64de30d8acef54946825967fee180f4e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/myform.h"
+          },
+          "hashes": {
+            "sha-256": "2d7a91d9f2c703a2c2bc883fe2b13d286ea7434e85693ea426e9d551fc6b7871"
+          }
+        }
+      ]
+    }
+  ]
+}

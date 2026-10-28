@@ -1,0 +1,1358 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6269",
+          "level": "warning",
+          "message": {
+            "text": "Possibly incorrect order of operations."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 10,
+                  "endLine": 120,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_algorithm_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@$$FUEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "level": "warning",
+          "message": {
+            "text": "Possibly incorrect order of operations."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 10,
+                  "endLine": 120,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_centers_init_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@$$FUEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@$$FQEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 39,
+                  "endLine": 173,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@$$FQEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@$$FQEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 39,
+                  "endLine": 173,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@$$FQEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@$$FQEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 39,
+                  "endLine": 165,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@$$FQEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@$$FQEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 39,
+                  "endLine": 165,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@$$FQEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@$$FQEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 39,
+                  "endLine": 181,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@$$FQEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "level": "warning",
+          "message": {
+            "text": "Ill-defined for-loop.  Loop body not executed."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@$$FQEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "level": "warning",
+          "message": {
+            "text": "Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this->val'."
+          },
+          "analysisTarget": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+                },
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 39,
+                  "endLine": 181,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@$$FQEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35222.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b02439fb442549226c5dcbc8834d54a1d07777208134de6b955b50e5f671529a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/any.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3b15f77754d790637d2ee5efd5ead1de2671717b87ce8d9852b1d40529040e4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "010153afc595d6e58ba24949c85af8a6a2fc038d52ec054a35ae9eed8a97980d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/source/repos/face detect mask/face detect mask/facedetector.h"
+          },
+          "hashes": {
+            "sha-256": "2371861188acdccaa99dfdeb369df6a8093556a6310bcde679fa480c7931ca64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/opencv.hpp"
+          },
+          "hashes": {
+            "sha-256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "sha-256": "26d63e9b1fa0b7f1fc21e3c7b7bf7f6213f36557b1b73b682744f9967c239bb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "22340ba4e68f8cf463f866922530bb26065ccec8b4e0b055f991e6b03e453a03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "sha-256": "ef683b02fcaa93f41fac8e9183dfc0dde547fe04a7a2b5f0ccc68fb22f4795ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "aa6df48dc2a1807bf2a1decb21d8917f18632ef4c0f6f87e3a31a62f7ebf7555"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "sha-256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "9bc32aba988a5412ff6590984bd5758a8613fe51891358d18be9f4e04ca30055"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/base.hpp"
+          },
+          "hashes": {
+            "sha-256": "e1854528b601ce022c661a8fcd312a0d9ea651c534c635e934117f3ca4912a20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "sha-256": "96a1ddefb0539061389be0704b554e5ab30f20132944485f4c70644ceeb4a0d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "4c0a89863f2147258a09ed9e4f295aff35bef9e9677e8bb2f73af23cca83885d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "sha-256": "fb7cf749c4695f02cb311b198efa9823eac1f1e98831b776fe8ab5f976bea4d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "sha-256": "6c45b2ee5137464ab4080063e38b68a6c5ac8b415e04aee8cb5c634b5dcc9861"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/matx.hpp"
+          },
+          "hashes": {
+            "sha-256": "086ceebe87ed54c98155bfff778f02305697dc7cd9d10449f2f21a482023872b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "sha-256": "bf418a3f44d575b17c18af968dbe3e2c8bd0663c22f8dcb53c4b0f77b5db14ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "sha-256": "81719ea26aef77deda817c751a90b7c61049821aaf67e915654b2305caaa942d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "19d8ae6170f3b6f38f545768a24c922a50774c23eeebc11e39f7c6a1f5726f08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/mat.hpp"
+          },
+          "hashes": {
+            "sha-256": "744b5bf42cd02052412870df3e8770835041cd8b8a7c935b795c4c89bac23520"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "sha-256": "65dd904d4f15850ec23ad7531a8f431fd023c98c429adc59e00ae346c8976667"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/mat.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "a267fd0f3dd5d33720a63082a6b88ddb4438d0a84e7e5078c2c4831e1ee97248"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "sha-256": "992e7d7575fd671302b2beb9600a99e380485797aa6448bdbaa81d8c66b524b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/operations.hpp"
+          },
+          "hashes": {
+            "sha-256": "426e7a2a9206c603af60a2cda4e3a36a60bdc53d268df577cf1d32ae1156f843"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "33223f6f38d88607f3da7f02683ff91aa07279240d34084e1a0fe7b19ab5ca28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/utility.hpp"
+          },
+          "hashes": {
+            "sha-256": "e5b9e25e349f121c3d3f2347c48afef5d18a8c7c4124acee833c0e04b9c270b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "sha-256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "sha-256": "e4b13bc11c14d59f640ac59963bd02670ca352d533160d539b6e790052051530"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/calib3d.hpp"
+          },
+          "hashes": {
+            "sha-256": "5437263e85235da04c9a682f0c7afbc6d54f26dbc9f5502e03ee896563ccdc43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/features2d.hpp"
+          },
+          "hashes": {
+            "sha-256": "c55060eb4f2f3ba5518ffe816ea5d7318796f59d2bd87c7b69fb6c2528827b61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/miniflann.hpp"
+          },
+          "hashes": {
+            "sha-256": "03781603df865272cb64fbc9d451e5e923f6662ba6638a975077f0b032905bb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/defines.h"
+          },
+          "hashes": {
+            "sha-256": "31953087864c437d95320bf26efe97389e7fd62ee270774d677703b8cbb9795a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/config.h"
+          },
+          "hashes": {
+            "sha-256": "49ed7d14da392b58d47d4a415acef4402205eb18303b2f3170d87004951720d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/affine.hpp"
+          },
+          "hashes": {
+            "sha-256": "f67b0e1a0d51ed1a0cb0f0010568a3c3649aa99ab51a0183e092858be6b00da4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/utils/logger.hpp"
+          },
+          "hashes": {
+            "sha-256": "139133ff707a0fb31bb201dfa34a1630d14ac02176272b241e2d1b6a1379b470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/utils/logger.defines.hpp"
+          },
+          "hashes": {
+            "sha-256": "03bc3fd53608846ee3ad1b1feeeb97ac68e9758f4ceb5827ecca87c58204304c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/utils/logtag.hpp"
+          },
+          "hashes": {
+            "sha-256": "1ab5f6f986e02af6aec74d7881ce0676dd82b215c4a5b33087f7e8010a1808b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "f2012cb1f4980d641f9dcacba7694c5b129af5589391154e2b2f00477ac31309"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "160e5995101b07453803b96349a4dcfe3674f19f8e480a109580c21978ffc294"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/async.hpp"
+          },
+          "hashes": {
+            "sha-256": "4ebd7dec356441c35e53447f548cb4c1074d93109a92716ab570d40469992313"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "ce591605c3cc1b9184b075dcbae813a9c24d03305d244346e30af960af9b78ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/dict.hpp"
+          },
+          "hashes": {
+            "sha-256": "98faa03a299e950f04d48cec6d7305176fa696014a773b8a0a3a29ab9f9a614e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/layer.hpp"
+          },
+          "hashes": {
+            "sha-256": "e3db29dbf6e4928c4a0023ca402e9a43921cd899731f4d763841b235ff503c0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/dnn.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "c979c478eb31f7d03898c536f03d89e439c1c242c44f41dcd6fa63d776e52490"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/dnn/utils/inference_engine.hpp"
+          },
+          "hashes": {
+            "sha-256": "0deb20d27d8dbe6ca41cbc6e49fd082d8a7f3108c181be905e480cc5fa257047"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann.hpp"
+          },
+          "hashes": {
+            "sha-256": "a92499056728a84fd1db1463945694472191e2dd222e321aeff0271ffad8fe53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/flann_base.hpp"
+          },
+          "hashes": {
+            "sha-256": "d72289ed979f27e18d7fa1ddc0e045906f357d68019fb7a2aee4ce4e57560662"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/general.h"
+          },
+          "hashes": {
+            "sha-256": "799f4921c510ca43c628bcda417249cf351cdedb7ca44bc19776a9f81a43ee3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/matrix.h"
+          },
+          "hashes": {
+            "sha-256": "4a8cd605f32c4d17f80dadb3d318b906b50fceac7c383ef25444c9dc01eee483"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/params.h"
+          },
+          "hashes": {
+            "sha-256": "c05f352e60c2100695f2dbb95ca205d8f1330f7613609ba5dbc2d231192dd0e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/saving.h"
+          },
+          "hashes": {
+            "sha-256": "cc3f85aa53984cc472ff364fc26b054f222f3824c0d890d85c90cb6ce0ca8778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/nn_index.h"
+          },
+          "hashes": {
+            "sha-256": "2db931b91d4f31c2dcf09f68b94536ff8f75b9ab8450582f69460ea0f341e314"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/result_set.h"
+          },
+          "hashes": {
+            "sha-256": "77cf8ba969509820a0cade411f86f52e5324861e199e75594f3ae58a33320044"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/all_indices.h"
+          },
+          "hashes": {
+            "sha-256": "2c131b00b1ed7ee05af4c53dddf1a00892d34f23f87538a6bfa8513527aea320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/kdtree_index.h"
+          },
+          "hashes": {
+            "sha-256": "d0f8d3b3eef53e2ea963c68523d295027bddc604b8cdae96c7af2d2986a5dbf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/dynamic_bitset.h"
+          },
+          "hashes": {
+            "sha-256": "6899d64e113f09ca72ad99724df818841b86917f6e57c7488013dd233fa05d19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/dist.h"
+          },
+          "hashes": {
+            "sha-256": "a094642d1c16efa9e43c209efc27be641edf7e6a5859da7b091a8ef1c03bccce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/heap.h"
+          },
+          "hashes": {
+            "sha-256": "adfdda97000266fef461eca40133cf3e639be97c6372d5fd68ddba17934b723b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/allocator.h"
+          },
+          "hashes": {
+            "sha-256": "ebab6d628cec97c170904986fda475e31a2a48040d8a492cf891afa68ca4872b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/random.h"
+          },
+          "hashes": {
+            "sha-256": "887342e351ce25feaab2af7a339e24a3becf5c84f662a21d27e924d0be2867cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/kdtree_single_index.h"
+          },
+          "hashes": {
+            "sha-256": "eac6d1789a62c8b7e43d4f05d57ef04751e153fd648a200717d970d811881cab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/kmeans_index.h"
+          },
+          "hashes": {
+            "sha-256": "5e2b695d69414fb9a5ca7d93a4b14e4860c11f0b1314e2268e16ca7baf78efe5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/logger.h"
+          },
+          "hashes": {
+            "sha-256": "25e54ee147da535321720a48f354af259293173cf7d6edf725dd7ac3a45349fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/composite_index.h"
+          },
+          "hashes": {
+            "sha-256": "0051bf459ffb971cd73aa7be5e7901ea9a803591217d8eb75f1ad352908bec27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/linear_index.h"
+          },
+          "hashes": {
+            "sha-256": "c7eb336c6e6135b6bc5285a8e8a21fde2f9642fb6a61d9a5263d2c202124ed17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/hierarchical_clustering_index.h"
+          },
+          "hashes": {
+            "sha-256": "a9a17c9c658da96d7cde411c4be255028451add15384e4ffa51b2c14b12096b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/lsh_index.h"
+          },
+          "hashes": {
+            "sha-256": "4ca69de52d128f68a370044c7283805713a592b1fb0eff0826d3714d8adbfc70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/lsh_table.h"
+          },
+          "hashes": {
+            "sha-256": "af1574873ec4b47b91e4fa03e48dc8a9562d5634f5858cfe6ca7035b4acadad4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/autotuned_index.h"
+          },
+          "hashes": {
+            "sha-256": "fd857bb2e3069b817c31225ffe7285d3f5512be3935404526ae501d8c0a03ec2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/ground_truth.h"
+          },
+          "hashes": {
+            "sha-256": "5636a84a20e779b97d3cedc37d3eca6f32c1d456c8e8a534e6f12a08510ee8bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/index_testing.h"
+          },
+          "hashes": {
+            "sha-256": "3fd061ce7ab4aba8c6c851a27266c5ed724236843720d702fad2b1b4b3e690d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/timer.h"
+          },
+          "hashes": {
+            "sha-256": "3521431be8f7b1f9064077be93e70f942c14565e6b002edf778219aad206cc18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/flann/sampling.h"
+          },
+          "hashes": {
+            "sha-256": "aa4c77b910328536f0bbf5137d48248163f8520dc708c1aa696d748de472326c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "dfe3ed66e27f080746421413eda36a68ad0974027a4e32c73d84155a096b5359"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "sha-256": "a217e9675cb0a10837b892760d0c17d471a5d356cd8894d5c18cf20426326a3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "sha-256": "b8a2190a00e2b3d0bf2e91feb7ca1a667b48dbf9828216181ea424950d4457c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/imgproc.hpp"
+          },
+          "hashes": {
+            "sha-256": "3a08bfbbd4167774564adfa92caa37d05d8527dbfdadf108c4218003e52375d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/imgproc/segmentation.hpp"
+          },
+          "hashes": {
+            "sha-256": "1f27474710e792c7ff1f1a63bac86876f53ceb0f648d32eb30b99e67d3dd5fdf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/ml.hpp"
+          },
+          "hashes": {
+            "sha-256": "c41f7f03931dbbd80ee8668ea782fa4d401effd3bc582d582b648221f85069dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/ml/ml.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "09eec0d780367bf9f468872c7726713492b2768ff05aed53eec31176e2cf6920"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect.hpp"
+          },
+          "hashes": {
+            "sha-256": "a4e8f6394a8a69fde4326adca811e5edbdc2cb51e5063e8847544bc88b357b97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/aruco_detector.hpp"
+          },
+          "hashes": {
+            "sha-256": "c597f60d49d596c17cd8e75a609ea15cd735e590eea022081bfbf20ace60d853"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp"
+          },
+          "hashes": {
+            "sha-256": "d9b42b77cb890b4b7ff8173486a781896b9eeb6896c93fd778678a490d9fe0db"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/aruco_board.hpp"
+          },
+          "hashes": {
+            "sha-256": "d37bf4e6110146a974f0237766c99b88acd7294b069c3a3da9b1b37ce687a3e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp"
+          },
+          "hashes": {
+            "sha-256": "c4b514e2fc49af7cfca7a634821036afb227ca24ea2d0109195423e9da218f4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp"
+          },
+          "hashes": {
+            "sha-256": "3da91f0817026b85bc8500d5a4030c83c5b510868cf1972b2dcff80a559c040b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/face.hpp"
+          },
+          "hashes": {
+            "sha-256": "bd6e4500bbfc52b6bd9ceac2f3ba634c1cd918fabbe134bae929aab979bbebdb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/charuco_detector.hpp"
+          },
+          "hashes": {
+            "sha-256": "9a6454c2a206532247fb1b0c895a14ec7093507639f4f8bf5ec8ab0914440b59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/objdetect/barcode.hpp"
+          },
+          "hashes": {
+            "sha-256": "7b6ef238bc14edaaa42eb9ad74919f999fbe9bc99e1c8263b27499ad78ca7e5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/photo.hpp"
+          },
+          "hashes": {
+            "sha-256": "065317df350d13ec1eddb3e153a2836b2ac0d554eb5ff5a564f2224e0d26c945"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching.hpp"
+          },
+          "hashes": {
+            "sha-256": "225c40b86c903de1a8c8c6292d1e9f93999958a3d3e8ec9e595686593824cfc0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/warpers.hpp"
+          },
+          "hashes": {
+            "sha-256": "373cc82bb85e8525a5ce4b0f72beb0a7c64f56386244f0b943a0c5ec331df13a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/warpers.hpp"
+          },
+          "hashes": {
+            "sha-256": "af1cf71ae2346f1903a8e70b6f101e72246a361dfe5d5a6411c74d62bacc66c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cuda.hpp"
+          },
+          "hashes": {
+            "sha-256": "b725d6848786e49dc878c0b362f7b2b4b3c45ec2463ac03112e5041560a40748"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cuda_types.hpp"
+          },
+          "hashes": {
+            "sha-256": "01753a8d438bacf14ac4439192542d5fc4bca88afb3918717afd7e1a36efacea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/core/cuda.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "caff4880ae6c88f63db928666202f1468c8b16e02843acc24e31bfb0c50091b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "40b095deb217b04ffe19971a12892d5f898a3a6e7eb0f25cfd93110d31e11fde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/matchers.hpp"
+          },
+          "hashes": {
+            "sha-256": "05c403322055d58e4c193e7dec41ba22b1e778512ab99d074d0a21a5c38961cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp"
+          },
+          "hashes": {
+            "sha-256": "2e34fe92b9a8cd37976e5623956f7bd137c55fe23e61f6f97e81b8760bb9c885"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/util.hpp"
+          },
+          "hashes": {
+            "sha-256": "6dfdc25654c4363868f778e338f65ee8e530d6012567f722d5ea458b0d06725a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/util_inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "75ad5d758c607f78151db4e9485791d8ef5dda0d5e2b9e2b11d9675b81e97559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/camera.hpp"
+          },
+          "hashes": {
+            "sha-256": "b1a5d84045121ddd6db63a2045679e58e21e83a5224214a71791420dd17b2c79"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp"
+          },
+          "hashes": {
+            "sha-256": "51c3131797c248f8ce0e58b90c1c90fef92dac51bc1134a5b0017fda6e81ea4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/seam_finders.hpp"
+          },
+          "hashes": {
+            "sha-256": "1b99fcb3a7aa88d98945261c4b66e0fa8871bfe1eca2bee156f08a05428ad811"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/stitching/detail/blenders.hpp"
+          },
+          "hashes": {
+            "sha-256": "ff361d24611c38f1963d1dd59c980f21cb514730baf1300ff5bfe23dde1805eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/video.hpp"
+          },
+          "hashes": {
+            "sha-256": "5c1d80d5edbb3c681d4c17e01d34c541fa341f0a270ccd427e59601c5a4ed625"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/video/tracking.hpp"
+          },
+          "hashes": {
+            "sha-256": "eec77538e88bd3bc5d7e6b9179a76d8886eac6f6bcd96fee2fed184a8855fe82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/almas/vcpkg/installed/x64-windows/include/opencv4/opencv2/video/background_segm.hpp"
+          },
+          "hashes": {
+            "sha-256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+          }
+        }
+      ]
+    }
+  ]
+}
